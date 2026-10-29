@@ -1,0 +1,60 @@
+{
+  "specversion": "1.0",
+  "type": "org.alfresco.event.node.Created",
+  "id": "a918629f-434b-42ca-8f74-787269058877",
+  "source": "/b193cb9c-c28f-4e5f-93cb-9cc28fde5fb6",
+  "time": "2026-10-29T17:50:25.037Z",
+  "dataschema": "https://api.alfresco.com/schema/event/repo/v1/nodeCreated",
+  "datacontenttype": "application/json",
+  "data": {
+    "eventGroupId": "2ed2d7e4-258c-4846-92d7-e4258cc84652",
+    "resource": {
+      "@type": "NodeResource",
+      "id": "6eb8f640-d380-4374-b8f6-40d380d37463",
+      "primaryHierarchy": [
+        "b0fbe277-f721-4981-bbe2-77f7216981cd",
+        "4c1ae56c-029b-40ce-9ae5-6c029b00cefa",
+        "1560dd2c-761a-4be2-a0dd-2c761a5be2b8",
+        "3e54d481-bf4d-4d37-94d4-81bf4d5d3754"
+      ],
+      "name": "F-002.pdf",
+      "nodeType": "fac:factura",
+      "createdByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "createdAt": "2026-10-29T17:50:24.77Z",
+      "modifiedByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "modifiedAt": "2026-10-29T17:50:24.77Z",
+      "content": {
+        "mimeType": "application/pdf",
+        "sizeInBytes": 0,
+        "encoding": "UTF-8"
+      },
+      "properties": {
+        "fac:proveedor": "ACME",
+        "fac:importe": 5000.0,
+        "fac:numero": "F-002",
+        "fac:estado": "PENDIENTE"
+      },
+      "aspectNames": [
+        "cm:auditable"
+      ],
+      "primaryAssocQName": "cm:F-002.pdf",
+      "secondaryParents": [],
+      "isFile": true,
+      "isFolder": false
+    },
+    "resourceReaderAuthorities": [
+      "GROUP_EVERYONE"
+    ],
+    "resourceDeniedAuthorities": []
+  },
+  "extensionAttributes": {
+    "path": "/Company Home/Shared/curso-lab/F-002.pdf",
+    "clientId": null
+  }
+}

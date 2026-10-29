@@ -1,0 +1,62 @@
+{
+  "specversion": "1.0",
+  "type": "org.alfresco.event.node.Created",
+  "id": "3362cff9-53e5-44ea-8d80-63dbccf45acc",
+  "source": "/b193cb9c-c28f-4e5f-93cb-9cc28fde5fb6",
+  "time": "2026-10-29T17:08:50.277Z",
+  "dataschema": "https://api.alfresco.com/schema/event/repo/v1/nodeCreated",
+  "datacontenttype": "application/json",
+  "data": {
+    "eventGroupId": "1aa5cdd3-06a2-43b2-a5cd-d306a273b21a",
+    "resource": {
+      "@type": "NodeResource",
+      "id": "f0d6a9b4-725e-4539-96a9-b4725e2539a4",
+      "primaryHierarchy": [
+        "2e424090-8374-4c80-8240-908374dc806a",
+        "4c1ae56c-029b-40ce-9ae5-6c029b00cefa",
+        "1560dd2c-761a-4be2-a0dd-2c761a5be2b8",
+        "3e54d481-bf4d-4d37-94d4-81bf4d5d3754"
+      ],
+      "name": "factura.pdf",
+      "nodeType": "cm:content",
+      "createdByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "createdAt": "2026-10-29T17:08:49.682Z",
+      "modifiedByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "modifiedAt": "2026-10-29T17:08:49.682Z",
+      "content": {
+        "mimeType": "application/pdf",
+        "sizeInBytes": 44,
+        "encoding": "UTF-8"
+      },
+      "properties": {
+        "cm:autoVersion": true,
+        "cm:versionType": "MAJOR",
+        "cm:autoVersionOnUpdateProps": false,
+        "cm:versionLabel": "1.0",
+        "cm:initialVersion": true
+      },
+      "aspectNames": [
+        "cm:versionable",
+        "cm:auditable"
+      ],
+      "primaryAssocQName": "cm:factura.pdf",
+      "secondaryParents": [],
+      "isFile": true,
+      "isFolder": false
+    },
+    "resourceReaderAuthorities": [
+      "GROUP_EVERYONE"
+    ],
+    "resourceDeniedAuthorities": []
+  },
+  "extensionAttributes": {
+    "path": "/Company Home/Shared/curso-oop-prueba/factura.pdf",
+    "clientId": null
+  }
+}

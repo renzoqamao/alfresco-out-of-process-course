@@ -1,0 +1,23 @@
+{
+  "specversion": "1.0",
+  "type": "org.alfresco.event.audit.entry.Created",
+  "id": "28b53eea-d66c-4d6c-a3ac-4d2de385a20d",
+  "source": null,
+  "time": "2026-10-29T17:08:48.508469414Z",
+  "dataschema": "https://api.alfresco.com/schema/event/repo/v1/auditEntryCreated",
+  "datacontenttype": "application/json",
+  "data": {
+    "eventGroupId": null,
+    "resource": {
+      "@type": "AuditEntryResource",
+      "entryType": "audit-suite-auth",
+      "username": "admin",
+      "entryDBId": 3277,
+      "entryData": {
+        "login": {
+          "user": "admin"
+        }
+      }
+    }
+  }
+}

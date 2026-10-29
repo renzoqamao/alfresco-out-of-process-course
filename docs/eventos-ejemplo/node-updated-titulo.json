@@ -1,0 +1,85 @@
+{
+  "specversion": "1.0",
+  "type": "org.alfresco.event.node.Updated",
+  "id": "4d2311ff-a29b-4c21-9f60-1b19f16a4986",
+  "source": "/b193cb9c-c28f-4e5f-93cb-9cc28fde5fb6",
+  "time": "2026-10-29T17:08:49.78Z",
+  "dataschema": "https://api.alfresco.com/schema/event/repo/v1/nodeUpdated",
+  "datacontenttype": "application/json",
+  "data": {
+    "eventGroupId": "19883e6b-8d21-4173-883e-6b8d21617342",
+    "resource": {
+      "@type": "NodeResource",
+      "id": "ef3de190-cb75-493c-bde1-90cb75d93cf5",
+      "primaryHierarchy": [
+        "2e424090-8374-4c80-8240-908374dc806a",
+        "4c1ae56c-029b-40ce-9ae5-6c029b00cefa",
+        "1560dd2c-761a-4be2-a0dd-2c761a5be2b8",
+        "3e54d481-bf4d-4d37-94d4-81bf4d5d3754"
+      ],
+      "name": "notas.txt",
+      "nodeType": "cm:content",
+      "createdByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "createdAt": "2026-10-29T17:08:48.89Z",
+      "modifiedByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "modifiedAt": "2026-10-29T17:08:49.736Z",
+      "content": {
+        "mimeType": "text/plain",
+        "sizeInBytes": 4,
+        "encoding": "ISO-8859-2"
+      },
+      "properties": {
+        "cm:autoVersion": true,
+        "cm:title": "Texto: notas.txt",
+        "cm:versionType": "MAJOR",
+        "cm:versionLabel": "1.0",
+        "cm:autoVersionOnUpdateProps": false,
+        "cm:initialVersion": true
+      },
+      "localizedProperties": {
+        "cm:title": {
+          "en": "Texto: notas.txt"
+        }
+      },
+      "aspectNames": [
+        "cm:versionable",
+        "cm:titled",
+        "cm:auditable"
+      ],
+      "primaryAssocQName": "cm:notas.txt",
+      "secondaryParents": [],
+      "isFile": true,
+      "isFolder": false
+    },
+    "resourceBefore": {
+      "@type": "NodeResource",
+      "modifiedAt": "2026-10-29T17:08:48.89Z",
+      "properties": {
+        "cm:title": null
+      },
+      "localizedProperties": {
+        "cm:title": {
+          "en": null
+        }
+      },
+      "aspectNames": [
+        "cm:versionable",
+        "cm:auditable"
+      ]
+    },
+    "resourceReaderAuthorities": [
+      "GROUP_EVERYONE"
+    ],
+    "resourceDeniedAuthorities": []
+  },
+  "extensionAttributes": {
+    "path": "/Company Home/Shared/curso-oop-prueba/notas.txt",
+    "clientId": null
+  }
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Leccion 12: modelo de contenido propio. Se despliega en Data Dictionary/Models (ver ModelBootstrap). -->
+<model name="fac:facturaModel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+  <description>Modelo de facturas del curso out-of-process</description>
+  <author>Curso ACS OOP</author>
+  <version>1.0</version>
+
+  <imports>
+    <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d"/>
+    <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm"/>
+  </imports>
+
+  <namespaces>
+    <namespace uri="http://www.curso.com/model/factura/1.0" prefix="fac"/>
+  </namespaces>
+
+  <constraints>
+    <constraint name="fac:estados" type="LIST">
+      <parameter name="allowedValues">
+        <list>
+          <value>PENDIENTE</value>
+          <value>APROBADA</value>
+          <value>PAGADA</value>
+          <value>RECHAZADA</value>
+        </list>
+      </parameter>
+    </constraint>
+  </constraints>
+
+  <types>
+    <type name="fac:factura">
+      <title>Factura</title>
+      <parent>cm:content</parent>
+      <properties>
+        <property name="fac:numero">
+          <title>Numero</title>
+          <type>d:text</type>
+        </property>
+        <property name="fac:proveedor">
+          <title>Proveedor</title>
+          <type>d:text</type>
+        </property>
+        <property name="fac:importe">
+          <title>Importe</title>
+          <type>d:double</type>
+        </property>
+        <property name="fac:estado">
+          <title>Estado</title>
+          <type>d:text</type>
+          <default>PENDIENTE</default>
+          <constraints>
+            <constraint ref="fac:estados"/>
+          </constraints>
+        </property>
+        <property name="fac:fechaPago">
+          <title>Fecha de pago</title>
+          <type>d:date</type>
+        </property>
+      </properties>
+    </type>
+  </types>
+</model>

@@ -1,0 +1,75 @@
+{
+  "specversion": "1.0",
+  "type": "org.alfresco.event.node.Deleted",
+  "id": "5cca97af-952c-46d8-bc76-946be742ee00",
+  "source": "/b193cb9c-c28f-4e5f-93cb-9cc28fde5fb6",
+  "time": "2026-10-29T17:08:59.285Z",
+  "dataschema": "https://api.alfresco.com/schema/event/repo/v1/nodeDeleted",
+  "datacontenttype": "application/json",
+  "data": {
+    "eventGroupId": "22288177-3c44-48d1-a881-773c4448d18b",
+    "resource": {
+      "@type": "NodeResource",
+      "id": "f0d6a9b4-725e-4539-96a9-b4725e2539a4",
+      "primaryHierarchy": [
+        "2e424090-8374-4c80-8240-908374dc806a",
+        "4c1ae56c-029b-40ce-9ae5-6c029b00cefa",
+        "1560dd2c-761a-4be2-a0dd-2c761a5be2b8",
+        "3e54d481-bf4d-4d37-94d4-81bf4d5d3754"
+      ],
+      "name": "factura.pdf",
+      "nodeType": "cm:content",
+      "createdByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "createdAt": "2026-10-29T17:08:49.682Z",
+      "modifiedByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "modifiedAt": "2026-10-29T17:08:59.113Z",
+      "content": {
+        "mimeType": "application/pdf",
+        "sizeInBytes": 44,
+        "encoding": "UTF-8"
+      },
+      "properties": {
+        "cm:autoVersion": true,
+        "cm:versionType": "MAJOR",
+        "cm:versionLabel": "1.0",
+        "cm:autoVersionOnUpdateProps": false,
+        "fm:commentCount": 0,
+        "cm:taggable": [
+          {
+            "storeRef": {
+              "protocol": "workspace",
+              "identifier": "SpacesStore"
+            },
+            "id": "a25c9f5d-8d66-4615-9c9f-5d8d6636155c"
+          }
+        ],
+        "cm:initialVersion": true
+      },
+      "aspectNames": [
+        "fm:discussable",
+        "cm:versionable",
+        "fm:commentsRollup",
+        "cm:auditable",
+        "cm:taggable"
+      ],
+      "primaryAssocQName": "cm:factura.pdf",
+      "secondaryParents": [],
+      "isFile": true,
+      "isFolder": false
+    },
+    "resourceReaderAuthorities": [
+      "GROUP_EVERYONE"
+    ],
+    "resourceDeniedAuthorities": []
+  },
+  "extensionAttributes": {
+    "path": "/Company Home/Shared/curso-oop-prueba/factura.pdf",
+    "clientId": null
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "specversion": "1.0",
+  "type": "org.alfresco.event.node.Updated",
+  "id": "be9c3744-4199-4308-bd7a-2662c29eb6a7",
+  "source": "/b193cb9c-c28f-4e5f-93cb-9cc28fde5fb6",
+  "time": "2026-10-29T17:50:31.203Z",
+  "dataschema": "https://api.alfresco.com/schema/event/repo/v1/nodeUpdated",
+  "datacontenttype": "application/json",
+  "data": {
+    "eventGroupId": "86c41bbe-dd2c-4953-841b-bedd2ce95353",
+    "resource": {
+      "@type": "NodeResource",
+      "id": "6eb8f640-d380-4374-b8f6-40d380d37463",
+      "primaryHierarchy": [
+        "b0fbe277-f721-4981-bbe2-77f7216981cd",
+        "4c1ae56c-029b-40ce-9ae5-6c029b00cefa",
+        "1560dd2c-761a-4be2-a0dd-2c761a5be2b8",
+        "3e54d481-bf4d-4d37-94d4-81bf4d5d3754"
+      ],
+      "name": "F-002.pdf",
+      "nodeType": "fac:factura",
+      "createdByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "createdAt": "2026-10-29T17:50:24.77Z",
+      "modifiedByUser": {
+        "id": "admin",
+        "displayName": "Administrator"
+      },
+      "modifiedAt": "2026-10-29T17:50:31.194Z",
+      "content": {
+        "mimeType": "application/pdf",
+        "sizeInBytes": 0,
+        "encoding": "UTF-8"
+      },
+      "properties": {
+        "fm:commentCount": 2,
+        "fac:numero": "F-002",
+        "fac:estado": "PAGADA",
+        "cm:taggable": [
+          {
+            "storeRef": {
+              "protocol": "workspace",
+              "identifier": "SpacesStore"
+            },
+            "id": "a25c9f5d-8d66-4615-9c9f-5d8d6636155c"
+          }
+        ],
+        "fac:proveedor": "ACME",
+        "fac:importe": 5000.0
+      },
+      "aspectNames": [
+        "fm:discussable",
+        "fm:commentsRollup",
+        "cm:auditable",
+        "cm:taggable"
+      ],
+      "primaryAssocQName": "cm:F-002.pdf",
+      "secondaryParents": [],
+      "isFile": true,
+      "isFolder": false
+    },
+    "resourceBefore": {
+      "@type": "NodeResource",
+      "modifiedAt": "2026-10-29T17:50:26.341Z",
+      "properties": {
+        "fac:estado": "PENDIENTE"
+      }
+    },
+    "resourceReaderAuthorities": [
+      "GROUP_EVERYONE"
+    ],
+    "resourceDeniedAuthorities": []
+  },
+  "extensionAttributes": {
+    "path": "/Company Home/Shared/curso-lab/F-002.pdf",
+    "clientId": null
+  }
+}
